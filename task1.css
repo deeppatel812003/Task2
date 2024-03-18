@@ -1,0 +1,108 @@
+.first {
+    background-image: url('firstimg.jpg');
+    background-size: cover;
+    font-weight: bold;
+}
+
+div.second {
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+    font-weight: bold;
+}
+
+li.nav-item {
+    font-weight: bold;
+}
+
+.carousel div.carousel-indicators>button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-bottom: 10vw;
+}
+
+
+div.col input.form-control {
+    border: none;
+    border-bottom: 0.5px solid;
+    border-radius: 0px;
+}
+
+div.row input.form-control {
+    border: none;
+    border-bottom: 0.5px solid;
+    border-radius: 0px;
+}
+
+div.row textarea.form-control {
+    border: none;
+    border-bottom: 0.5px solid;
+    border-radius: 0px;
+}
+
+div.des {
+    position: relative;
+}
+
+.des.col-sm-6.col-lg-3 > img{
+    width:100%; 
+    height:200px;
+}
+
+div.carousel-caption > p{
+    margin-bottom: 12vw;
+}
+
+
+@media only screen and (max-width:575px) {
+    .carousel-item>img {
+        height: 300px;
+    }
+
+    div.last {
+        padding-top: 15px;
+    }
+
+    li.nav-item {
+        padding-left: 0px;
+    }
+
+    .container-fluid.first.pt-lg-3 {
+        padding: 0px;
+    }
+    .des.col-sm-6.col-lg-3 > img{
+        width:60%; 
+    
+    }
+    .container.my-5.footer{
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+    .last.col-md-6.col-lg-3 {
+        padding-top: 15px;
+    }
+    
+    .des.col-sm-6.col-lg-3 > img{
+        width:70%; 
+    
+    }
+
+    div.carousel-caption > p{
+        margin-bottom: 5vw;
+    }
+
+    .carousel div.carousel-indicators>button{
+        margin-bottom: 3vw;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:992px) 
+{
+    .des.col-sm-6.col-lg-3 > img{
+        width:70%; 
+    
+    }
+}
